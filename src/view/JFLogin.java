@@ -57,39 +57,43 @@ public class JFLogin extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 300, 130, 20));
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, 130, 20));
 
         jTextFieldsenha.setBackground(new java.awt.Color(255, 255, 255));
         jTextFieldsenha.setForeground(new java.awt.Color(0, 0, 0));
+        jTextFieldsenha.setText("1234");
         jTextFieldsenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldsenhaActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextFieldsenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 210, -1));
+        jPanel1.add(jTextFieldsenha, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 220, -1));
 
         jTextFieldusuario.setBackground(new java.awt.Color(255, 255, 255));
         jTextFieldusuario.setForeground(new java.awt.Color(0, 0, 0));
+        jTextFieldusuario.setText("gian");
         jTextFieldusuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldusuarioActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextFieldusuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 220, -1));
+        jPanel1.add(jTextFieldusuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 220, -1));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("bem Vindo!");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, -1, -1));
 
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("usuario");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
 
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("senha");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 200, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 200, -1, -1));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 0, 300, 360));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 0, 310, 360));
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagem/pou.jpg"))); // NOI18N
